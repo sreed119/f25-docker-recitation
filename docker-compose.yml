@@ -1,1 +1,7 @@
-
+version: '3.9'
+services:
+  my-fastapi-service:
+    container_name: whos-my-ta
+    image: reci8img:latest
+    ports:
+      - "8080:8080"
